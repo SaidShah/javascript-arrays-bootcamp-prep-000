@@ -49,7 +49,10 @@ function destructivelyRemoveElementFromEndOfArray(givenArray, index){
   return givenArray
 }
 
-
+function removeElementFromEndOfArray(givenArray){
+  givenArray.slice(0,length-1)
+  return givenArray
+}
 
 
 
