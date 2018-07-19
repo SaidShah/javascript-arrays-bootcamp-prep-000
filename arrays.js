@@ -43,6 +43,19 @@ function removeElementFromBeginningOfArray(givenArray,index){
   
 }
 
+function destructivelyRemoveElementFromEndOfArray(givenArray, index){
+  
+  givenArray.pop()
+  return givenArray
+}
+
+
+
+
+
+
+
+
 
 
 
